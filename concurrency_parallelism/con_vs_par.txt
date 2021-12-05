@@ -1,0 +1,22 @@
+https://talks.golang.org/2012/waza.slide#8
+
+Concurrency is when two or more tasks can start, run, and complete in overlapping time periods. It doesn't necessarily mean they'll ever both be running at the same instant. For example, multitasking on a single-core machine.
+
+Parallelism is when tasks literally run at the same time, e.g., on a multicore processor.
+
+Quoting Sun's Multithreaded Programming Guide:
+
+Concurrency: A condition that exists when at least two threads are making progress. A more generalized form of parallelism that can include time-slicing as a form of virtual parallelism.
+
+Parallelism: A condition that arises when at least two threads are executing simultaneously.
+
+Concurrency: Interruptability
+Parallelism: Independentability
+
+
+
+CONCURRENCY - Its a composition of independently executing things(functions)
+			- dealing with a lot of things once
+
+PARALLELISM - simultaneous execution of multiple things (possibly related or possibly not)
+			- Doing a lot of things once

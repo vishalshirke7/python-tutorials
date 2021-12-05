@@ -1,0 +1,6 @@
+As mentioned before, there are layers of abstraction from the physical hardware to CPython. The operating system (OS) abstracts the physical memory and creates a virtual memory layer that applications (including Python) can access.
+
+An OS-specific virtual memory manager carves out a chunk of memory for the Python process. The darker gray boxes in the image below are now owned by the Python process.
+
+
+https://www.geeksforgeeks.org/garbage-collection-python/
